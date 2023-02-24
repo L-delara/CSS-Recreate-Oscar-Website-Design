@@ -6,7 +6,7 @@ ul {
   margin: 5px;
 }
 li {
-  padding: 0px 15px;
+  padding: 2px 15px;
 }
 body {
   margin: 0;
@@ -22,7 +22,7 @@ p {
   font-family: monospace;
   font-size: 1.25em;
   text-align: center;
-  color: rgba(100, 100, 100, 0.849);
+  color: rgba(54, 53, 53, 0.849);
 }
 .intro {
   position: relative;
@@ -41,6 +41,17 @@ p {
 .navigation {
   background-color: transparent;
   font-size: 15px;
+  font-weight: 600;
+}
+.home-nav {
+  font-size: 20px;
+}
+.about-oscar {
+  margin: 0px 45px;
+  display: grid;
+}
+.about-img {
+  max-width: 400px;
 }
 .navigation button {
   padding: 5px 10px;
@@ -56,6 +67,7 @@ p {
   position: absolute;
   top: 35px;
   left: 0;
+  z-index: -1;
 }
 .form-img {
   display: block;
